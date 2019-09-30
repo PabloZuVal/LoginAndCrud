@@ -21,6 +21,10 @@
     "passport-local": "^1.0.0"
   },
   "devDependencies": {
+<<<<<<< HEAD
     "nodemon": "^1.19.1"
+=======
+    "nodemon": "^1.19.2"
+>>>>>>> a069c98f061d9d34e361bcc13a2b4c6a7b359b72
   }
 }
