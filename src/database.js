@@ -5,7 +5,8 @@ const mongoose = require('mongoose');
 mongoose.connect('mongodb+srv://UnboundValpo:Valpo2019@cluster0-ubopd.mongodb.net/test?retryWrites=true&w=majority', { 
     useNewUrlParser: true,
     useCreateIndex: true,
-    useFindAndModify: false 
+    useFindAndModify: false,
+    useUnifiedTopology: true
 })
 .then(db => console.log('DB connected'))
 .catch(err => console.log(err))
